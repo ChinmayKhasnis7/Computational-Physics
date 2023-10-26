@@ -89,7 +89,7 @@ def RK4_mod(X0, t0, tN, N, F):
     Returns the solution X(t) for those points before hitting ground
     """
     dimension  = X0.shape[0]  # size of the phase space vector
-    q = 1-int(1/dimension)
+    q = 1-int(2/dimension)
     X = np.zeros([dimension,N]) ; X[:,0]=X0  # Initialise the initial value
     t = np.linspace(t0, tN, N)
     h = (tN-t0)/N
