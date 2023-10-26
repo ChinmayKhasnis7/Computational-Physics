@@ -1,4 +1,4 @@
-# Computational-Physics-PHY717 (under construction)
+# Computational-Physics (under construction)
 References: 
 
 ### Numerical methods
