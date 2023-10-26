@@ -7,7 +7,7 @@ Press, W. H. (2007). Numerical recipes 3rd edition: The art of scientific comput
 ### CLassical
 Giordano, N. J. (2012). Computational physics. Pearson Education India.
 
-## Quantum
+### Quantum
 Izaac, J., & Wang, J. (2018). Computational Quantum Mechanics. Berlin: Springer.
 
 Thijssen, J. (2007). Computational Physics. Cambridge university press.   
