@@ -7,6 +7,7 @@ This repository contains the following.
 - Simulating Magnus effect for boundary value problem.
 ### Quantum
 - 1D Time independent Schrodinger equation solution: Numerov-Cooley algorithm, The Matching Point method, Finite difference method (exact diagonalisation), finite Basis method.
+- Computation of first N Eigenstates 
 - Variational Method: Ground state for non-overlapping and Overlapping basis.   
 - Time dependent Schrodinger equation: Unitary Propagation Operator- Euler, Crank-Nicholson approximation, Direct Time Discretisation.
 ### Statistical
