@@ -12,7 +12,7 @@ This repository contains the following.
 ### Statistical
 - Simulating Random walk for absorbing and reflecting boundary conditions.
 - Monte-Carlo methods: MC integration, Importance sampling , Metropolis Monte-Carlo algorithm.
-- 2D Ising Model  simulation using Metropolis Monte-Carlo method
+- 2D Ising Model simulation using Metropolis Monte-Carlo method: Calculating average magnetization, Magnetic susceptibility, Specific heat, Critical Point.
 
 ## References:
 1. Press, W. H. (2007). Numerical recipes 3rd edition: The art of scientific computing. Cambridge university press.
