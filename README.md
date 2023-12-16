@@ -1,6 +1,15 @@
 # Computational-Physics (under construction)
-References: 
+This repository contains the following. 
+- Initial and Boundary value problems (ODE solvers): Euler, Runge Kutta, Shooting methods. Numerical Integration: Trapezoidal, Quadrature, Newton-Cotes, Gaussian Quadrature.
+- Simulating Magnus effect for boundary value problem.
+- 1D Time independent Schrodinger equation solution: Numerov-Cooley algorithm, The Matching Point method, Finite difference method (exact diagonalisation), finite Basis method.
+- Variational Method: Ground state for non-overlapping and Overlapping basis.   
+- Time dependent Schrodinger equation: Unitary Propagation Operator- Euler, Crank-Nicholson approximation, Direct Time Discretisation.
+- Simulating Random walk for absorbing and reflecting boundary conditions.
+- Monte-Carlo methods: MC integration, Importance sampling , Metropolis Monte-Carlo algorithm.
+- 2D Ising Model  simulation using Metropolis Monte-Carlo method
 
+References:
 ### Numerical methods
 Press, W. H. (2007). Numerical recipes 3rd edition: The art of scientific computing. Cambridge university press.
 
