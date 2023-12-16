@@ -13,7 +13,7 @@ References:
 ### Numerical methods
 Press, W. H. (2007). Numerical recipes 3rd edition: The art of scientific computing. Cambridge university press.
 
-### CLassical
+### Classical
 Giordano, N. J. (2012). Computational physics. Pearson Education India.
 
 ### Quantum
