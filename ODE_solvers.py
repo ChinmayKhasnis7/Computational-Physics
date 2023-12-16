@@ -28,14 +28,15 @@ def three_term(x0, t0, tN, N, fun):
     N       : Number of solution points
     fun     : f(x) = dx/dt
     """
-    x = np.zeros(N) ; x[0]=x0  # Initialise the initial value
+    dimension  = X0.shape[0]  # size of the phase space vector
+    X = np.zeros([dimension,N]) ; X[:,0]=X0  # Initialise the initial value
     t = np.linspace(t0, tN, N)
     h = (tN-t0)/N
-    x[1] =x[0] + h*fun(t[0], x[0])
+    X[:,1] =X[:,0] + h*fun(t[:,0], X[:,0])
     # 1st order Taylor expn for each step
     for i in range(1,N-1):
-        x[i+1] = x[i-1] + 2*h*fun(t[i], x[i])
-    return x,t
+        X[:,i+1] = X[:,i] + h*F(X[:,i], t[i])
+    return X,t
 
 
 ##------------- Runge-Kutta methods -------------##
@@ -86,7 +87,7 @@ def RK4_mod(X0, t0, tN, N, F):
     [t0,tN] : Interval in which X(t) has to be found
     N       : Number of solution points
     Fun     : F(x) = dX/dt
-    Returns the solution X(t) for those points before hitting ground
+    Returns the solution X(t) for those points before hitting boundary
     """
     dimension  = X0.shape[0]  # size of the phase space vector
     q = 1-int(2/dimension)
@@ -99,7 +100,7 @@ def RK4_mod(X0, t0, tN, N, F):
         K3 = h * F(t[i] + 0.5 * h, X[:,i] + 0.5 * K2)
         K4 = h * F(t[i] + h, X[:,i] + K3)
         X[:,i+1] = X[:,i] + (K1 + 2 * K2 + 2 * K3 + K4) / 6
-        if X[q,i+1] <= 0:  # Stop when it hit ground
+        if X[q,i+1] <= 0:  # Stop when it hit boundary
             break
     X = X[:,:i+1]
     t = t[:i+1]
