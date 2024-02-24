@@ -2,7 +2,7 @@
 ! Chinmay Khasanis
 ! MD simulation in canonical ensemble
 ! 500 Lennard-Jones particles
-!---------------------------------------------------------------
+!--------------------------------------------------------------- 
 
 module parameters
   implicit none
