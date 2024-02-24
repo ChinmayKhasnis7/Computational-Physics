@@ -2,7 +2,7 @@
 ! Chinmay Khasanis
 ! Monte-Carlo (MC) for NVT ensemble to calculate Pressure
 ! 500 particles in Genetralised Lennard-Jones potential
-!------------------------------------------------------------------
+!---------------------------------------------------------------
 
 module parameters_q2b      
   implicit none      
