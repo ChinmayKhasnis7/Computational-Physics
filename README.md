@@ -1,4 +1,4 @@
-# Computational-Physics (under construction)
+# Computational-Physics (under construction collaborators are welcome mail: chinmaykhasanis@gmail.com)
 This repository contains the following. 
 ### Numerical methods
 - Initial and Boundary value problems (ODE solvers): Euler, Runge Kutta, Shooting methods. Numerical Integration: Trapezoidal, Quadrature, Newton-Cotes, Gaussian Quadrature.
